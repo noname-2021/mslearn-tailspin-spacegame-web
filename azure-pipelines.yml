@@ -15,8 +15,9 @@ pool:
     buildConfiguration: 'Release'
 
 stages:
-  - stage: Build123
-
+- stage: Build123
+  jobs:
+  - job: BuildJob123
     steps:
     - task: UseDotNet@2
       displayName: 'Use .NET SDK 5.x'
