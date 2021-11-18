@@ -11,10 +11,10 @@ pool:
   demands:
   - npm
   
-  variables:
-    buildConfiguration: 'Release'
-    wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-    dotnetSdkVersion: '5.x'
+variables:
+  buildConfiguration: 'Release'
+  wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
+  dotnetSdkVersion: '5.x'
 
 stages:
 - stage: Build123
